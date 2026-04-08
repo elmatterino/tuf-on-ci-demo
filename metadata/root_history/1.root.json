@@ -1,0 +1,65 @@
+{
+ "signatures": [
+  {
+   "keyid": "7ed4f1f4ca0db5193335d1106936bfaf79d8da774419d501b5c92c0fe4566c35",
+   "sig": ""
+  }
+ ],
+ "signed": {
+  "_type": "root",
+  "consistent_snapshot": true,
+  "expires": "2027-04-08T20:36:39Z",
+  "keys": {
+   "2ad575af48e07fc6f61600f981be2d73637df4b8158e0203fb7d75747acda945": {
+    "keytype": "rsa",
+    "keyval": {
+     "public": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4eyJbXT4rYh+XBQk6mrb\n2pP35mRFhnoBZvO2jielhtEqtXIvhkWVwezvRjuLHPaqFoBu2XkzUiabiqKgvOIp\ng7rKOUFDIH5p3QykC4JV1/fQ6fv1EHLcm3qbrywrK121/vh8fNuSL3+mHO/+qwmn\nEjGcYPFYGvcVz5bQpAu8Tqc2QEkCY/zW10+2Q0kqoIG6suE3+wL++sag/6dIVH9R\nsMx89w+evEjcICdLpBWXT81sZhC1/mqaRxAoLOaJc2cvzHveeMQ12xImIYkSWDH6\nm48r4fWdLJTz5njXU18DPXGozcXkW5+7qeYzRqLBtn/gX/XYWe1aLo0PMuNUEJXR\n1QIDAQAB\n-----END PUBLIC KEY-----\n"
+    },
+    "scheme": "rsassa-pss-sha256",
+    "x-tuf-on-ci-online-uri": "awskms:ee536511-ac78-41f6-97dd-c2ee06744ce2"
+   },
+   "7ed4f1f4ca0db5193335d1106936bfaf79d8da774419d501b5c92c0fe4566c35": {
+    "keytype": "ecdsa",
+    "keyval": {
+     "public": "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEdkHwpUezJYwpqKc9C8YS/KqPaelo\ne8wdk62xeKLAPQQzAe6EFCGfsHs1YlMqVl8YvrTzXTJ95u3xmjTIeB/mAg==\n-----END PUBLIC KEY-----\n"
+    },
+    "scheme": "ecdsa-sha2-nistp256",
+    "x-tuf-on-ci-keyowner": "@elmatterino"
+   }
+  },
+  "roles": {
+   "root": {
+    "keyids": [
+     "7ed4f1f4ca0db5193335d1106936bfaf79d8da774419d501b5c92c0fe4566c35"
+    ],
+    "threshold": 1
+   },
+   "snapshot": {
+    "keyids": [
+     "2ad575af48e07fc6f61600f981be2d73637df4b8158e0203fb7d75747acda945"
+    ],
+    "threshold": 1,
+    "x-tuf-on-ci-expiry-period": 365,
+    "x-tuf-on-ci-signing-period": 60
+   },
+   "targets": {
+    "keyids": [
+     "7ed4f1f4ca0db5193335d1106936bfaf79d8da774419d501b5c92c0fe4566c35"
+    ],
+    "threshold": 1
+   },
+   "timestamp": {
+    "keyids": [
+     "2ad575af48e07fc6f61600f981be2d73637df4b8158e0203fb7d75747acda945"
+    ],
+    "threshold": 1,
+    "x-tuf-on-ci-expiry-period": 2,
+    "x-tuf-on-ci-signing-period": 1
+   }
+  },
+  "spec_version": "1.0.31",
+  "version": 1,
+  "x-tuf-on-ci-expiry-period": 365,
+  "x-tuf-on-ci-signing-period": 60
+ }
+}
