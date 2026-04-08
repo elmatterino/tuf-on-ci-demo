@@ -24,6 +24,8 @@ jobs:
           token: ${{ secrets.TUF_ON_CI_TOKEN || secrets.GITHUB_TOKEN }}
           gcp_workload_identity_provider: ${{ vars.GCP_WORKLOAD_IDENTITY_PROVIDER }}
           gcp_service_account: ${{ vars.GCP_SERVICE_ACCOUNT }}
+          aws_region: ${{ vars.AWS_REGION }}
+          aws_role_to_assume: ${{ vars.AWS_ROLE_TO_ASSUME }}
 
   update-issue:
     runs-on: ubuntu-latest
