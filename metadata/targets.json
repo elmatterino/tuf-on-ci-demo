@@ -2,15 +2,28 @@
  "signatures": [
   {
    "keyid": "7ed4f1f4ca0db5193335d1106936bfaf79d8da774419d501b5c92c0fe4566c35",
-   "sig": "304402202d294e9881d954fce01d808f0849d510f4cdef29c34e670c0e9168eba32a978e02201fbfa4c67a073b68f39d22ba5ce92618b8e864d7532eef24c3fc552159f97446"
+   "sig": "304402201e1701da7c9cf9399eb67cb078482ecb8ef68b452fcac27d98cb6bf76e57e6d202204e308eb1fa0af455696759fa19a6ccd792ec023b60eba94639a6091c112bcb5a"
   }
  ],
  "signed": {
   "_type": "targets",
-  "expires": "2027-04-08T20:36:39Z",
+  "expires": "2027-04-08T22:27:20Z",
   "spec_version": "1.0.31",
-  "targets": {},
-  "version": 1,
+  "targets": {
+   "C2PA-TRUST-LIST.pem": {
+    "hashes": {
+     "sha256": "19d9fa09359cff2c904d7976d8c5de831efd8464c3fd82be2ae57cb4f97a7bf7"
+    },
+    "length": 23384
+   },
+   "C2PA-TSA-TRUST-LIST.pem": {
+    "hashes": {
+     "sha256": "e9bc3261834d4a8397c0a8d98a27951fdb296cc83f96c4b09a07c81679d23049"
+    },
+    "length": 17518
+   }
+  },
+  "version": 2,
   "x-tuf-on-ci-expiry-period": 365,
   "x-tuf-on-ci-signing-period": 60
  }
